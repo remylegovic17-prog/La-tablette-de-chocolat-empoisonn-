@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La tablette de chocolat empoisonnée</title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin:0;
+                padding:0;
+                text-align: justify;
+                font-family: "georgia", Arial;
+                color:#333;
+                line-height: 1.6;
+                background-color: #f4f4f9;
+            }
+            header {
+                background-color: #827455;
+                padding: 20px;
+                color:white;
+                text-align: center;
+            }
+            main {
+                padding: 20px;
+                margin: 20px auto;
+                max-width:900px;
+                background-color: #ffffff;
+                border-radius: 50px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            }
+            h2{
+                font-family: 'Playfair Display', serif;
+            }
+            h2, h3 {
+                color: #827455;
+            }
+            p {
+                margin-bottom: 15px;
+                text-align: justify;
+            }
+            footer {
+                background-color: #827455;
+                color:#f4f4f9;
+                text-align: center;
+                padding: 15px;
+                margin: 30px 0 0 0;
+            }
+            .image-MJ {
+                float: right;
+                margin: 0 0 15px 15px;
+                max-width: 250px;
+                min-width: 150px;
+                border-radius: 8px;
+                box-shadow: 0 0 8px rgba(0,0,0,0.2); 
+            }
+            a {
+                color: #f4f4f9;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            a:active {
+                color: #ccc;
+            }
+
+            th {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>La tablette de chocolat empoisonnée</h1>
+        </header>
+
+        <main>
+
+            <h2>C'est quoi ?</h2>
+            <p>
+                La tablette de chocolat empoisonnée est un problème mathématique proposé au collège Fabre d’Églantine et au collège de La Jarrie, 
+                dans le cadre de l’atelier Math en Jeans. Les élèves doivent résoudre ce problème tout au long de l’année 
+                pour présenter leurs résultats à un congrès.
+            </p>
+
+            <h2>C'est quoi Math en Jeans ?</h2>
+            <img src="https://ent2d.ac-bordeaux.fr/disciplines/semaine-des-maths/wp-content/uploads/sites/17/2017/01/logo-mej-665px-981px-768x521.png" alt="MJ" class="image-MJ" >
+            <p>
+                Math en Jeans est un atelier de recherche mathématique pour les élèves de la 6ᵉ à la terminale. 
+                Encadrés par des chercheurs et des enseignants, les élèves travaillent sur des problèmes ouverts 
+                issus de la recherche mathématique contemporaine. L’objectif est de stimuler leur curiosité, 
+                développer leur esprit critique et leur donner une expérience concrète de la recherche scientifique.
+            </p>
+            <h2>Le problème</h2>
+            <p>
+                Le problème est une tablette de chocolat dont le carré supérieur à gauche est empoisonné. 
+                Deux joueurs s’affrontent et, à chacun de leurs tours, choisissent un carré de la tablette. 
+                Lorsqu’un joueur choisit un carré, celui-ci prend également tous les carrés situés à droite et en dessous 
+                de ce même carré. Le joueur qui prend le carré empoisonné a perdu.
+            </p>
+            <h3 style="text-decoration: underline">Exemple :</h3>
+            <p>On prend le carré en C2</p>
+            <table cellspacing="3" height="170" width="250" style="margin:auto">
+                <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td style="background-color: red;"></th>
+                    <td style="background-color: rgb(77, 54, 13)"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13)"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                </tr>
+            </table>
+
+            <table cellspacing="3" height="170" width="250" style="margin:auto">
+                <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td style="background-color: red;"></td>
+                    <td style="background-color: rgb(77, 54, 13)"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13)"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                    <td style="background-color: rgb(77, 54, 13);"></td>
+                </tr>
+            </table>
+
+            <p>Les carrés situés à droite et en dessous de C2 on bien été pris.</p>
+            
+            <h2>Objectif</h2>
+            <p>
+                L'objectif est de savoir s'il existe une stratégie grâce à laquelle le joueur 1 gagne systématiquement, et si oui, laquelle.
+                <br><br>
+                <h4 style="margin:0">Info:</h4>
+                Les élèves ne sont pas obligés de répondre à cette question. Elle sert à aidé les élèves à avoir un objectif.Ils peuvent très bien travailler sur leur propre question.
+            </p>
+
+            <h2>Hypothèse</h2>
+            <p>Nous avons commencé par une tablette 4x4.<br>
+            pour cela, rien de compliqué: il suffit de prendre le carré en bas à droite</p>
+            <table width="100" height="100" cellspacing="3" style="margin:auto">
+                <tr>
+                    <th>Joueur 1</th>
+                    <th>Joueur 2</th>
+                    <th>Joueur 1</th>
+                </tr>
+                <tr>
+                    <td>
+                    <table width="100" height="100" cellspacing="3">
+                        <tr>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: rgb(77, 54, 13);"></td>
+                        </tr>
+                        <tr>
+                        <td style="background-color: rgb(77, 54, 13);"></td>
+                        <td style="background-color: rgba(77, 54, 13, 0.786);"></td>
+                        </tr>
+                    </table>
+                    </td>
+                    <td>
+                    <table width="100" height="100" cellspacing="3">
+                        <tr>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: rgb(77, 54, 13);"></td>
+                        </tr>
+                        <tr>
+                        <td style="background-color: rgba(77, 54, 13, 0.786);"></td>
+                        <td></td>
+                        </tr>
+                    </table>
+                    </td>
+                    <td>
+                    <!-- Ajoute ici la troisième colonne (ex: un autre tableau ou une cellule vide) -->
+                    <table width="100" height="100" cellspacing="3">
+                        <tr>
+                        <td style="background-color: red;"></td>
+                        <td style="background-color: rgba(77, 54, 13, 0.786);"></td>
+                        </tr>
+                        <tr>
+                        <td></td>
+                        <td></td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+            </table>
+            <p>Le joueur 2 prend le carré en bas à gauche mais aurait très bien pu prendre le carré en haut à droite.
+                Mais cela n'aurait rien changé au résultat, car il existe une symétrie en partant de l'angle en haut à gauche du carré empoisonné et en passant par son angle opposé.</p>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 La tablette de chocolat empoisonnée par Le Govic Rémy</p>
+            <a href="https://www.bing.com/ck/a?!&&p=b6a70d034f58ff2317a231c24e97f1c31961bf748acde6c207e1dcbf9c2c9893JmltdHM9MTc2NDAyODgwMA&ptn=3&ver=2&hsh=4&fclid=2c0270d7-b42e-667c-1304-66feb5d267c7&psq=math+en+jeans&u=a1aHR0cHM6Ly93d3cubWF0aGVuamVhbnMuZnIv">Math en Jeans</a>
+            <br>
+            <a href="http://127.0.0.1:3000/html/arthur/arthur arme.html?serverWindowId=a6a4e852-5012-4eb4-b2ea-e16e579a6ad0">arthur conquête</a>
+        </footer>
+    </body>
+</html>
